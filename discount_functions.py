@@ -13,6 +13,7 @@ def rachlin(delay, params):
 def rachlin_kappa(delay, params):
     s, kappa = params
     assert s >= 0, 's is less than zero'
+    assert kappa >= 0, 'kappa is less than zero'
     return 1 / (1+(kappa*delay)**s)
 
 
