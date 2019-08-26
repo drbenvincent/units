@@ -1,4 +1,5 @@
 import pymc3 as pm
+import numpy as np
 
 
 def make_equal_variance_model(pdata, target_variable):
